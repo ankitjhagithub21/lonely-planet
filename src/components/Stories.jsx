@@ -14,17 +14,17 @@ const Stories = () => {
                     </div>
                 </div>
                 <div className='flex flex-wrap lg:mb-20 mb-10'>
-                    <div className='lg:w-2/3 w-full relative'>
+                    <div className='lg:w-2/3 w-full relative h-[50vh] lg:h-auto'>
                         <img src="https://lp-cms-production.imgix.net/2025-01/sitski2whistleryeager.jpg?w=780&h=425&fit=crop&auto=format&q=75" alt="" className='rounded-xl w-full h-full object-cover object-center' />
-                        <div className="overlay absolute rounded-xl flex flex-col gap-2 items-start justify-end p-10 top-0 right-0 w-full h-full">
+                        <div className="overlay absolute rounded-xl flex flex-col gap-2 items-start justify-end lg:p-10 top-0 p-5 right-0 w-full h-full min-h-fit">
                             <h2 className='text-white text-sm font-bold tracking-wider'>OUTDOORS</h2>
-                            <h1 className='text-3xl font-semibold text-white'>Behind the trip: skiing Whistler <br /> to find accessible adventure</h1>
-                            <p className='text-white'>Destination Editor Melissa Yeager heads to Whistler Canada , in search of accessible adventure.</p>
+                            <h1 className='lg:text-3xl text-2xl font-semibold text-white'>Behind the trip: skiing Whistler <br /> to find accessible adventure</h1>
+                            <p className='text-white lg:text-lg text-xs'>Destination Editor Melissa Yeager heads to Whistler Canada , in search of accessible adventure.</p>
                         </div>
                     </div>
                     <div className='lg:w-1/3 w-full flex flex-col lg:mt-0 mt-10 gap-4'>
                         <div className='lg:px-5 p-0 w-full'>
-                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow cursor-pointer p-5 rounded-xl w-full'>
+                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow-lg cursor-pointer p-5 rounded-xl w-full'>
                                 <img src="https://lp-cms-production.imgix.net/2025-02/GettyRF499766822-cropped.jpg?w=140&h=140&fit=crop&auto=format&q=75" alt="" className='w-14 h-14 rounded-xl object-cover object-center' />
                                 <div>
                                     <h2 className='text-sm font-bold text-gray-600'>ACTIVITIES</h2>
@@ -34,7 +34,7 @@ const Stories = () => {
                             </div>
                         </div>
                         <div className='lg:px-5 p-0 w-full'>
-                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow cursor-pointer p-5 rounded-xl w-full'>
+                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow-lg cursor-pointer p-5 rounded-xl w-full'>
                                 <img src="https://lp-cms-production.imgix.net/2025-02/GettyRF499766822-cropped.jpg?w=140&h=140&fit=crop&auto=format&q=75" alt="" className='w-14 h-14 rounded-xl object-cover object-center' />
                                 <div>
                                     <h2 className='text-sm font-bold text-gray-600'>ACTIVITIES</h2>
@@ -44,7 +44,7 @@ const Stories = () => {
                             </div>
                         </div>
                         <div className='lg:px-5 p-0 w-full'>
-                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow cursor-pointer p-5 rounded-xl w-full'>
+                            <div className='flex gap-4 items-center bg-indigo-100 border border-gray-200 hover:shadow-lg cursor-pointer p-5 rounded-xl w-full'>
                                 <img src="https://lp-cms-production.imgix.net/2025-02/GettyRF499766822-cropped.jpg?w=140&h=140&fit=crop&auto=format&q=75" alt="" className='w-14 h-14 rounded-xl object-cover object-center' />
                                 <div>
                                     <h2 className='text-sm font-bold text-gray-600'>ACTIVITIES</h2>
