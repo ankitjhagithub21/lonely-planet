@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoSection = () => {
     return (
-        <section className='h-[70vh] w-full relative '>
+        <section className='lg:h-screen h-[70vh] w-full relative '>
             <video autoPlay loop muted className="absolute top-0 left-0 z-0 object-cover w-full h-full">
                 <source
                     src="https://lonelyplanetstatic.imgix.net/marketing/best-in-travel/2025/videos/main-page/bit-landscape-4.mp4"
