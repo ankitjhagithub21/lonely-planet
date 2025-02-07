@@ -25,10 +25,10 @@ International flights are not included`
     <h2 className=" w-full text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#1B5BFD] via-[#6A0DAD]  to-[#8C10F0] md:text-5xl lg:pb-4 xl:pb-6 lg:text-5xl">Your dream itinerary,<br /> crafted with you</h2>
         <p>Elsewhere by Lonely Planet connects you with an award-winning local expert to craft your personalized, unforgettable trip.</p>
         
-        <div className='flex items-center border-b border-gray-400'>
-            <button onClick={()=>setIndex(0)} className={`${index===0 ? 'font-semibold bg-gray-200':'text-gray-500'} px-4 py-2`}>How does it work?</button>
-            <button onClick={()=>setIndex(1)} className={`${index===1 ? 'font-semibold bg-gray-200':'text-gray-500'} px-4 py-2`}>Work for our local experts</button>
-            <button onClick={()=>setIndex(2)} className={`${index===2 ? 'font-semibold bg-gray-200':' text-gray-500'} px-4 py-2`}>What included?</button>
+        <div className='flex md:flex-row flex-col items-center border-b border-gray-400'>
+            <button onClick={()=>setIndex(0)} className={`${index===0 ? 'font-semibold bg-gray-200':'text-gray-500'} outline-none px-4 py-2`}>How does it work?</button>
+            <button onClick={()=>setIndex(1)} className={`${index===1 ? 'font-semibold bg-gray-200':'text-gray-500'} outline-none px-4 py-2`}>Work for our local experts</button>
+            <button onClick={()=>setIndex(2)} className={`${index===2 ? 'font-semibold bg-gray-200':' text-gray-500'} px-4 py-2 outline-none`}>What included?</button>
         </div>
 
         <p>{data[index]}</p>
