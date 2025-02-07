@@ -5,7 +5,7 @@ const Hero = () => {
     <section>
         <div className='flex relative'>
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center overlay">
-                <h1 className='lg:text-7xl md:text-4xl text-3xl text-white text-center font-bold'>Discover story-worthy <br /> travel moments</h1>
+                <h1 className='lg:text-7xl md:text-4xl text-3xl text-white text-center font-semibold'>Discover story-worthy <br /> travel moments</h1>
             </div>
             <div>
                 <img src="./1.avif" alt="" />

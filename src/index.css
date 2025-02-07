@@ -17,3 +17,6 @@ button{
 .about-img{
   border-top-right-radius: 14%;
 }
+.slider::-webkit-scrollbar{
+  display: none;
+}
