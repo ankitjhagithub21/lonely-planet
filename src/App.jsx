@@ -6,6 +6,8 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Stories from './components/Stories'
 import Form from './components/Form'
+import "./App.css"
+import Books from './components/Books'
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
     <About/>
     <Stories/>
     <Form/>
+    <Books/>
     <Footer/>
     </>
   )
