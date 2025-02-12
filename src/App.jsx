@@ -8,6 +8,7 @@ import Stories from './components/Stories'
 import Form from './components/Form'
 import "./App.css"
 import Books from './components/Books'
+import Places from './components/Places'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <Stories/>
     <Form/>
     <Books/>
+    <Places/>
     <Footer/>
     </>
   )

@@ -1,10 +1,10 @@
-import React from 'react'
 
 const Footer = () => {
   return (
     <footer>
   
   <section className="py-8 bg-black px-5">
+    
     <div className="container flex flex-col-reverse items-center justify-between md:flex-row">
       <p className="text-sm text-white">
         © {/* */}2025{/* */} Lonely Planet, a Red Ventures company. All rights
