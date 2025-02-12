@@ -95,9 +95,9 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <section className="py-8 bg-black px-5">
-        <div className="container flex flex-col-reverse md:flex-row items-center justify-between">
+        <div className="container flex flex-col-reverse md:flex-row items-center justify-between gap-5">
           <p className="text-sm text-white text-center md:text-left">
-            © 2025 Lonely Planet, a Red Ventures company. All rights reserved. No part of this site may be reproduced without our written permission.
+            © 2025 Lonely Planet, a Red Ventures company. All rights reserved.
           </p>
 
           {/* Language Selector */}
