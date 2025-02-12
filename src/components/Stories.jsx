@@ -58,8 +58,8 @@ const Stories = () => {
                     </div>
                 </div>
                 <div className='lg:hidden gap-3 flex w-full items-center my-10 justify-center'>
-                    <button className='border rounded-full font-bold border-gray-400 text-sm px-4 w-1/2 py-2'>Read more news</button>
-                    <button className='border rounded-full font-bold border-gray-400 text-sm px-4 w-1/2 py-2'>Read more articles</button>
+                    <button className='border rounded-full min-w-fit font-bold border-gray-400 text-sm px-4 w-1/2 py-2'>Read more news</button>
+                    <button className='border rounded-full min-w-fit font-bold border-gray-400 text-sm px-4 w-1/2 py-2'>Read more articles</button>
 
                 </div>
             </div>
